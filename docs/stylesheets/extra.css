@@ -1,39 +1,67 @@
+/* ==========================================================================
+   Brand tokens
+   Dark Grey #808080 · Mustard #FFC709 · Grey #DEDEDE · Primary Blue #1736F5
+   ========================================================================== */
+
+:root {
+  --brand-dark-grey: #808080;
+  --brand-mustard: #ffc709;
+  --brand-grey: #dedede;
+  --brand-blue: #1736f5;
+}
+
 /* Light theme custom colors */
 [data-md-color-scheme="default"] {
-  --md-primary-fg-color: #000111;
-  --md-accent-fg-color: #2856f7;
-  --md-typeset-a-color: var(--md-accent-fg-color);
-  --md-footer-bg-color: var(--md-primary-fg-color);
+  --md-primary-fg-color: var(--brand-blue);
+  --md-accent-fg-color: var(--brand-mustard);
+  --md-typeset-a-color: var(--brand-blue);
+  --md-footer-bg-color: var(--brand-dark-grey);
+  --md-default-fg-color--lightest: var(--brand-grey);
 }
 
 /* Dark theme custom colors */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #000111;
-  --md-default-bg-color: #090d1d;
-  --md-accent-fg-color: #8e92f8;
-  --md-typeset-a-color: var(--md-accent-fg-color);
+  --md-primary-fg-color: var(--brand-blue);
+  --md-default-bg-color: #1c1c1c;
+  --md-accent-fg-color: var(--brand-mustard);
+  --md-typeset-a-color: #7c93ff;
+  --md-default-fg-color--lightest: #3a3a3a;
 }
 
 /* Dark Theme Custom Button */
 [data-md-color-scheme="slate"] .md-button {
-  background-color: var(--md-accent-fg-color);
-  border-color: var(--md-accent-fg-color);
+  background-color: var(--brand-mustard);
+  border-color: var(--brand-mustard);
+  color: #1a1a1a;
 }
 
 /* Optional: Custom hover effects */
 [data-md-color-scheme="slate"] .md-button:hover {
-  background-color: #ffffff;
-  border-color: #ffffff;
-  color: #000000;
+  background-color: var(--brand-blue);
+  border-color: var(--brand-blue);
+  color: #ffffff;
+}
+
+/* Light Theme Custom Button */
+[data-md-color-scheme="default"] .md-button--primary {
+  background-color: var(--brand-mustard);
+  border-color: var(--brand-mustard);
+  color: #1a1a1a;
+}
+
+[data-md-color-scheme="default"] .md-button--primary:hover {
+  background-color: var(--brand-blue);
+  border-color: var(--brand-blue);
+  color: #ffffff;
 }
 
 /* Footer Section */
 .md-footer {
-  background-color: #090d1d;
+  background-color: var(--brand-dark-grey);
 }
 
 .md-footer-meta {
-  background-color: #000111;
+  background-color: #6b6b6b;
 }
 
 /* Testimonial cards */
@@ -45,6 +73,7 @@
 
 .grid.cards.testimonials > * {
     margin-top: 0 !important;
+    border-left: 3px solid var(--brand-mustard);
 }
 
 /* Style the author name and title */
@@ -53,5 +82,3 @@
     color: var(--md-default-fg-color--light);
     font-size: 0.9rem;
 }
-
-
