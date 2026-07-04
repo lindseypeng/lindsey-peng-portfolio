@@ -1,5 +1,5 @@
-site_name: Your Site Name
-site_description: Your site description
+site_name: Lindsey Peng
+site_description: Data Scientist / AI Engineer — practical AI systems for real business problems
 site_url: https://yourdomain.com
 
 nav:
@@ -58,7 +58,7 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://youtube.com/
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com
+      link: https://www.linkedin.com/in/lindsey-peng-71382986/
   analytics:
     # provider: google
     # property: G-W9Y130NXVZ
@@ -102,4 +102,4 @@ extra_files:
   - docs/robots.txt
 
 copyright: |
-  &copy; 2024 <a href="https://www.linkedin.com" target="_blank" rel="noopener">John Doe</a>. All rights reserved.
+  &copy; 2024 <a href="https://www.linkedin.com/in/lindsey-peng-71382986/" target="_blank" rel="noopener">Lindsey Peng</a>. All rights reserved.

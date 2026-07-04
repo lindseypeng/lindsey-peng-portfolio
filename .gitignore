@@ -89,6 +89,9 @@ target/
 # Exclude virtual environment
 .venv/
 
+# MkDocs build output
+/site/
+
 # Exclude trained models
 /models/
 

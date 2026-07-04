@@ -49,8 +49,7 @@ As you go through this setup, please find all the most up to date information in
 > - If you encounter any issues on Windows:
 >   1. First, check the [official MkDocs Material documentation](https://squidfunk.github.io/mkdocs-material/getting-started/)
 >   2. Try to resolve the issue using their troubleshooting guides
->   3. If the problem persists, please message Dave on Circle for assistance
->   4. Your feedback will help improve the documentation for other Windows users!
+>   3. If the problem persists, refer to the MkDocs Material community for assistance
 
 
 ### Option 2: Using Docker (Recommended for Windows, Mac and Linux)
