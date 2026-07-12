@@ -21,4 +21,10 @@ Welcome to my portfolio of data science and AI projects. Each project demonstrat
 
     A private ChatGPT-like tool for the Company Y that revolutionizes mobility data analysis by combining structured SQL data with unstructured policy documents. Built with OpenAI and modern cloud architecture for comprehensive public sector policy evaluation.
 
+-   [AI-Assisted Risk Scoring for Operational Ticket Auditing](projects/risk-scoring-ticket-auditing.md)
+
+    ---
+
+    A machine learning risk-scoring system that ranks logistics tickets by error probability, increasing error discovery efficiency by ~4x over random sampling across 94,000+ tickets without increasing review capacity.
+
 </div>
