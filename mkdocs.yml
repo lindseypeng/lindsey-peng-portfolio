@@ -8,9 +8,8 @@ nav:
   - Case Studies:
     - Overview: portfolio/index.md
     - Projects:
-      - portfolio/projects/project-1.md
-      - portfolio/projects/project-2.md
       - portfolio/projects/risk-scoring-ticket-auditing.md
+      - portfolio/projects/causal-inference-coupon-targeting.md
   - Blog:
     - blog/index.md 
 

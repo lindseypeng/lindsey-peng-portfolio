@@ -9,22 +9,16 @@ Welcome to my portfolio of data science and AI projects. Each project demonstrat
 
 <div class="grid cards" markdown>
 
--   [AI Customer Care Bot for Dev X](projects/project-1.md)
-
-    ---
-
-    An AI-powered chatbot solution for Dev X that enables customer service transformation, featuring Slack integration and sub-3 second response times. Built with OpenAI, Pinecone, and Azure cloud infrastructure to achieve 100% accuracy on initial datasets.
-
--   [Enterprise Chatbot for Company Y](projects/project-2.md)
-
-    ---
-
-    A private ChatGPT-like tool for the Company Y that revolutionizes mobility data analysis by combining structured SQL data with unstructured policy documents. Built with OpenAI and modern cloud architecture for comprehensive public sector policy evaluation.
-
 -   [AI-Assisted Risk Scoring for Operational Ticket Auditing](projects/risk-scoring-ticket-auditing.md)
 
     ---
 
     A machine learning risk-scoring system that ranks logistics tickets by error probability, increasing error discovery efficiency by ~4x over random sampling across 94,000+ tickets without increasing review capacity.
+
+-   [Causal Inference for Coupon Targeting](projects/causal-inference-coupon-targeting.md)
+
+    ---
+
+    An uplift modeling framework that estimates the causal impact of compensation coupons on retention, targeting customers most likely to change behavior because of the intervention rather than every customer at risk of churn.
 
 </div>
