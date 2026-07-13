@@ -21,7 +21,7 @@ We were migrating search off a dedicated search engine and onto plain Postgres. 
 
 > Can an out-of-the-box Postgres extension (`pg_trgm`) give us good enough search, or do we need something heavier: embeddings, a vector database, a Hugging Face model, a custom bag-of-words ranker?
 
-In most teams, this conversation goes one way. Someone types three queries into a staging environment, squints at the results, and says "looks fine to me". Someone else tries a typo, gets nothing back, and says "hmm, not sure". The discussion ends on intuition, and the decision inherits that uncertainty.
+With AI, a product manager or engineer can quickly implement several PostgreSQL search options, even without deep search expertise. The same tools can also help simulate realistic user queries and build a small evaluation set in under an hour. That makes it possible to compare the options with evidence instead of stopping at "this looks okay."
 
 <!-- more -->
 
