@@ -7,9 +7,9 @@ categories:
   - Engineering
 ---
 
-# "Is the Search Good Enough?" Answering an Engineering Question with a 10-Row Spreadsheet
+# Is PostgreSQL pg_trgm Good Enough for Fuzzy Search?
 
-*How a data science habit (a tiny eval set and accuracy@k) turned "this looks okay" into a decision we could defend in numbers, in one afternoon.*
+*How a simple data science habit—a tiny eval set and accuracy@k—helped engineers and PMs turn "this looks okay" into a defensible decision in one hour.*
 
 ---
 
